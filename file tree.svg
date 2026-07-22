@@ -1,0 +1,239 @@
+<svg width="1000" height="1550" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: 'Arial', sans-serif; font-size: 18px; font-weight: bold; fill: #2c3e50; }
+      .subtitle { font-family: 'Arial', sans-serif; font-size: 12px; fill: #7f8c8d; }
+      .folder-text { font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #27ae60; font-weight: bold; }
+      .file-text { font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #3498db; }
+      .icon { font-family: 'Arial', sans-serif; font-size: 16px; }
+      .line { stroke: #bdc3c7; stroke-width: 1.5; }
+      .background { fill: #f8f9fa; }
+      .header-bg { fill: #ecf0f1; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="1550" class="background"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1000" height="60" class="header-bg"/>
+  <text x="20" y="25" class="title">📁 File Tree: java</text>
+  <text x="20" y="45" class="subtitle">Generated: 7/22/2026, 11:08:13 PM | FileTree Pro Extension</text>
+
+  <!-- Tree Structure -->
+    <line x1="15" y1="80" x2="25" y2="80" class="line"/>
+    <text x="30" y="85" class="icon">📁</text>
+    <text x="55" y="85" class="folder-text">.github/</text>
+    <line x1="45" y1="100" x2="45" y2="110" class="line"/>
+    <line x1="45" y1="110" x2="55" y2="110" class="line"/>
+    <text x="60" y="115" class="icon">📁</text>
+    <text x="85" y="115" class="folder-text">appmod/</text>
+    <line x1="75" y1="130" x2="75" y2="140" class="line"/>
+    <line x1="75" y1="140" x2="85" y2="140" class="line"/>
+    <text x="90" y="145" class="icon">📁</text>
+    <text x="115" y="145" class="folder-text">appcat/</text>
+    <line x1="15" y1="245" x2="25" y2="245" class="line"/>
+    <text x="30" y="250" class="icon">📁</text>
+    <text x="55" y="250" class="folder-text">1 Hello world/</text>
+    <line x1="45" y1="265" x2="45" y2="275" class="line"/>
+    <line x1="45" y1="275" x2="55" y2="275" class="line"/>
+    <text x="60" y="280" class="icon">📁</text>
+    <text x="85" y="280" class="folder-text">introduction Hello World/</text>
+    <line x1="75" y1="295" x2="75" y2="305" class="line"/>
+    <line x1="75" y1="305" x2="85" y2="305" class="line"/>
+    <text x="90" y="310" class="icon">☕</text>
+    <text x="115" y="310" class="file-text">Hello_World.java</text>
+    <line x1="15" y1="410" x2="25" y2="410" class="line"/>
+    <text x="30" y="415" class="icon">📁</text>
+    <text x="55" y="415" class="folder-text">2 BASIC/</text>
+    <line x1="45" y1="430" x2="45" y2="440" class="line"/>
+    <line x1="45" y1="440" x2="55" y2="440" class="line"/>
+    <text x="60" y="445" class="icon">☕</text>
+    <text x="85" y="445" class="file-text">IOT.java</text>
+    <line x1="45" y1="465" x2="45" y2="475" class="line"/>
+    <line x1="45" y1="475" x2="55" y2="475" class="line"/>
+    <text x="60" y="480" class="icon">☕</text>
+    <text x="85" y="480" class="file-text">simpleJava.java</text>
+    <line x1="15" y1="545" x2="25" y2="545" class="line"/>
+    <text x="30" y="550" class="icon">📁</text>
+    <text x="55" y="550" class="folder-text">3Arithmetic/</text>
+    <line x1="45" y1="565" x2="45" y2="575" class="line"/>
+    <line x1="45" y1="575" x2="55" y2="575" class="line"/>
+    <text x="60" y="580" class="icon">📁</text>
+    <text x="85" y="580" class="folder-text">2/</text>
+    <line x1="75" y1="595" x2="75" y2="605" class="line"/>
+    <line x1="75" y1="605" x2="85" y2="605" class="line"/>
+    <text x="90" y="610" class="icon">☕</text>
+    <text x="115" y="610" class="file-text">unaryOP.java</text>
+    <line x1="45" y1="665" x2="45" y2="675" class="line"/>
+    <line x1="45" y1="675" x2="55" y2="675" class="line"/>
+    <text x="60" y="680" class="icon">📁</text>
+    <text x="85" y="680" class="folder-text">in_out_sum/</text>
+    <line x1="75" y1="695" x2="75" y2="705" class="line"/>
+    <line x1="75" y1="705" x2="85" y2="705" class="line"/>
+    <text x="90" y="710" class="icon">☕</text>
+    <text x="115" y="710" class="file-text">sum.java</text>
+    <line x1="45" y1="765" x2="45" y2="775" class="line"/>
+    <line x1="45" y1="775" x2="55" y2="775" class="line"/>
+    <text x="60" y="780" class="icon">☕</text>
+    <text x="85" y="780" class="file-text">swiping.java</text>
+    <line x1="15" y1="845" x2="25" y2="845" class="line"/>
+    <text x="30" y="850" class="icon">📁</text>
+    <text x="55" y="850" class="folder-text">4 conditional/</text>
+    <line x1="45" y1="865" x2="45" y2="875" class="line"/>
+    <line x1="45" y1="875" x2="55" y2="875" class="line"/>
+    <text x="60" y="880" class="icon">☕</text>
+    <text x="85" y="880" class="file-text">calculator.java</text>
+    <line x1="45" y1="900" x2="45" y2="910" class="line"/>
+    <line x1="45" y1="910" x2="55" y2="910" class="line"/>
+    <text x="60" y="915" class="icon">☕</text>
+    <text x="85" y="915" class="file-text">if_else.java</text>
+    <line x1="15" y1="980" x2="25" y2="980" class="line"/>
+    <text x="30" y="985" class="icon">📁</text>
+    <text x="55" y="985" class="folder-text">5 loop/</text>
+    <line x1="45" y1="1000" x2="45" y2="1010" class="line"/>
+    <line x1="45" y1="1010" x2="55" y2="1010" class="line"/>
+    <text x="60" y="1015" class="icon">📁</text>
+    <text x="85" y="1015" class="folder-text">prime/</text>
+    <line x1="75" y1="1030" x2="75" y2="1040" class="line"/>
+    <line x1="75" y1="1040" x2="85" y2="1040" class="line"/>
+    <text x="90" y="1045" class="icon">☕</text>
+    <text x="115" y="1045" class="file-text">Main.java</text>
+    <line x1="45" y1="1100" x2="45" y2="1110" class="line"/>
+    <line x1="45" y1="1110" x2="55" y2="1110" class="line"/>
+    <text x="60" y="1115" class="icon">📁</text>
+    <text x="85" y="1115" class="folder-text">star print/</text>
+    <line x1="75" y1="1130" x2="75" y2="1140" class="line"/>
+    <line x1="75" y1="1140" x2="85" y2="1140" class="line"/>
+    <text x="90" y="1145" class="icon">☕</text>
+    <text x="115" y="1145" class="file-text">StarPattern.java</text>
+    <line x1="45" y1="1200" x2="45" y2="1210" class="line"/>
+    <line x1="45" y1="1210" x2="55" y2="1210" class="line"/>
+    <text x="60" y="1215" class="icon">☕</text>
+    <text x="85" y="1215" class="file-text">AllLoops.java</text>
+    <line x1="45" y1="1235" x2="45" y2="1245" class="line"/>
+    <line x1="45" y1="1245" x2="55" y2="1245" class="line"/>
+    <text x="60" y="1250" class="icon">☕</text>
+    <text x="85" y="1250" class="file-text">doWhileLoop.java</text>
+    <line x1="45" y1="1270" x2="45" y2="1280" class="line"/>
+    <line x1="45" y1="1280" x2="55" y2="1280" class="line"/>
+    <text x="60" y="1285" class="icon">☕</text>
+    <text x="85" y="1285" class="file-text">forloop.java</text>
+    <line x1="45" y1="1305" x2="45" y2="1315" class="line"/>
+    <line x1="45" y1="1315" x2="55" y2="1315" class="line"/>
+    <text x="60" y="1320" class="icon">☕</text>
+    <text x="85" y="1320" class="file-text">while_loop.java</text>
+    <line x1="15" y1="1385" x2="25" y2="1385" class="line"/>
+    <text x="30" y="1390" class="icon">📁</text>
+    <text x="55" y="1390" class="folder-text">6 Nested LOOP/</text>
+    <line x1="45" y1="1405" x2="45" y2="1415" class="line"/>
+    <line x1="45" y1="1415" x2="55" y2="1415" class="line"/>
+    <text x="60" y="1420" class="icon">📁</text>
+    <text x="85" y="1420" class="folder-text">pattern/</text>
+    <line x1="75" y1="1435" x2="75" y2="1445" class="line"/>
+    <line x1="75" y1="1445" x2="85" y2="1445" class="line"/>
+    <text x="90" y="1450" class="icon">☕</text>
+    <text x="115" y="1450" class="file-text">butterfly_pattern.java</text>
+    <line x1="75" y1="1470" x2="75" y2="1480" class="line"/>
+    <line x1="75" y1="1480" x2="85" y2="1480" class="line"/>
+    <text x="90" y="1485" class="icon">☕</text>
+    <text x="115" y="1485" class="file-text">diamond.java</text>
+    <line x1="75" y1="1505" x2="75" y2="1515" class="line"/>
+    <line x1="75" y1="1515" x2="85" y2="1515" class="line"/>
+    <text x="90" y="1520" class="icon">☕</text>
+    <text x="115" y="1520" class="file-text">numberPyramid.java</text>
+    <line x1="75" y1="1540" x2="75" y2="1550" class="line"/>
+    <line x1="75" y1="1550" x2="85" y2="1550" class="line"/>
+    <text x="90" y="1555" class="icon">☕</text>
+    <text x="115" y="1555" class="file-text">palindromicPattern.java</text>
+    <line x1="75" y1="1575" x2="75" y2="1585" class="line"/>
+    <line x1="75" y1="1585" x2="85" y2="1585" class="line"/>
+    <text x="90" y="1590" class="icon">☕</text>
+    <text x="115" y="1590" class="file-text">solidRhombus.java</text>
+    <line x1="45" y1="1645" x2="45" y2="1655" class="line"/>
+    <line x1="45" y1="1655" x2="55" y2="1655" class="line"/>
+    <text x="60" y="1660" class="icon">☕</text>
+    <text x="85" y="1660" class="file-text">nestedLoop.java</text>
+    <line x1="45" y1="1680" x2="45" y2="1690" class="line"/>
+    <line x1="45" y1="1690" x2="55" y2="1690" class="line"/>
+    <text x="60" y="1695" class="icon">☕</text>
+    <text x="85" y="1695" class="file-text">nestedLoop1.java</text>
+    <line x1="45" y1="1715" x2="45" y2="1725" class="line"/>
+    <line x1="45" y1="1725" x2="55" y2="1725" class="line"/>
+    <text x="60" y="1730" class="icon">☕</text>
+    <text x="85" y="1730" class="file-text">nestedLoop2.java</text>
+    <line x1="45" y1="1750" x2="45" y2="1760" class="line"/>
+    <line x1="45" y1="1760" x2="55" y2="1760" class="line"/>
+    <text x="60" y="1765" class="icon">☕</text>
+    <text x="85" y="1765" class="file-text">nestedLoop3.java</text>
+    <line x1="45" y1="1785" x2="45" y2="1795" class="line"/>
+    <line x1="45" y1="1795" x2="55" y2="1795" class="line"/>
+    <text x="60" y="1800" class="icon">☕</text>
+    <text x="85" y="1800" class="file-text">nestedLoop4.java</text>
+    <line x1="45" y1="1820" x2="45" y2="1830" class="line"/>
+    <line x1="45" y1="1830" x2="55" y2="1830" class="line"/>
+    <text x="60" y="1835" class="icon">☕</text>
+    <text x="85" y="1835" class="file-text">nestedLoop5.java</text>
+    <line x1="45" y1="1855" x2="45" y2="1865" class="line"/>
+    <line x1="45" y1="1865" x2="55" y2="1865" class="line"/>
+    <text x="60" y="1870" class="icon">☕</text>
+    <text x="85" y="1870" class="file-text">nestedLoop6.java</text>
+    <line x1="45" y1="1890" x2="45" y2="1900" class="line"/>
+    <line x1="45" y1="1900" x2="55" y2="1900" class="line"/>
+    <text x="60" y="1905" class="icon">☕</text>
+    <text x="85" y="1905" class="file-text">nestedLoop7.java</text>
+    <line x1="45" y1="1925" x2="45" y2="1935" class="line"/>
+    <line x1="45" y1="1935" x2="55" y2="1935" class="line"/>
+    <text x="60" y="1940" class="icon">☕</text>
+    <text x="85" y="1940" class="file-text">nestedLoop8.java</text>
+    <line x1="45" y1="1960" x2="45" y2="1970" class="line"/>
+    <line x1="45" y1="1970" x2="55" y2="1970" class="line"/>
+    <text x="60" y="1975" class="icon">☕</text>
+    <text x="85" y="1975" class="file-text">nestedLoop9.java</text>
+    <line x1="15" y1="2040" x2="25" y2="2040" class="line"/>
+    <text x="30" y="2045" class="icon">📁</text>
+    <text x="55" y="2045" class="folder-text">NotePad/</text>
+    <line x1="45" y1="2060" x2="45" y2="2070" class="line"/>
+    <line x1="45" y1="2070" x2="55" y2="2070" class="line"/>
+    <text x="60" y="2075" class="icon">📁</text>
+    <text x="85" y="2075" class="folder-text">JAVA2/</text>
+    <line x1="75" y1="2090" x2="75" y2="2100" class="line"/>
+    <line x1="75" y1="2100" x2="85" y2="2100" class="line"/>
+    <text x="90" y="2105" class="icon">☕</text>
+    <text x="115" y="2105" class="file-text">for_loop.java</text>
+    <line x1="45" y1="2160" x2="45" y2="2170" class="line"/>
+    <line x1="45" y1="2170" x2="55" y2="2170" class="line"/>
+    <text x="60" y="2175" class="icon">📁</text>
+    <text x="85" y="2175" class="folder-text">java1/</text>
+    <line x1="75" y1="2190" x2="75" y2="2200" class="line"/>
+    <line x1="75" y1="2200" x2="85" y2="2200" class="line"/>
+    <text x="90" y="2205" class="icon">☕</text>
+    <text x="115" y="2205" class="file-text">IOT.java</text>
+    <line x1="15" y1="2305" x2="25" y2="2305" class="line"/>
+    <text x="30" y="2310" class="icon">⚙️</text>
+    <text x="55" y="2310" class="file-text">.gitignore</text>
+    <line x1="15" y1="2340" x2="25" y2="2340" class="line"/>
+    <text x="30" y="2345" class="icon">🖼️</text>
+    <text x="55" y="2345" class="file-text">1.png</text>
+    <line x1="15" y1="2375" x2="25" y2="2375" class="line"/>
+    <text x="30" y="2380" class="icon">🖼️</text>
+    <text x="55" y="2380" class="file-text">2.png</text>
+    <line x1="15" y1="2410" x2="25" y2="2410" class="line"/>
+    <text x="30" y="2415" class="icon">🖼️</text>
+    <text x="55" y="2415" class="file-text">3.png</text>
+    <line x1="15" y1="2445" x2="25" y2="2445" class="line"/>
+    <text x="30" y="2450" class="icon">📝</text>
+    <text x="55" y="2450" class="file-text">README.md</text>
+    <line x1="15" y1="2480" x2="25" y2="2480" class="line"/>
+    <text x="30" y="2485" class="icon">☕</text>
+    <text x="55" y="2485" class="file-text">SmartToDoApp.java</text>
+    <line x1="15" y1="2515" x2="25" y2="2515" class="line"/>
+    <text x="30" y="2520" class="icon">☕</text>
+    <text x="55" y="2520" class="file-text">Sum.java</text>
+    <line x1="15" y1="2550" x2="25" y2="2550" class="line"/>
+    <text x="30" y="2555" class="icon">🖼️</text>
+    <text x="55" y="2555" class="file-text">SumCode2Number.png</text>
+    <line x1="15" y1="2585" x2="25" y2="2585" class="line"/>
+    <text x="30" y="2590" class="icon">🖼️</text>
+    <text x="55" y="2590" class="file-text">butterfly.png</text>
+</svg>
