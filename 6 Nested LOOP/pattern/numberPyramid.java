@@ -1,4 +1,4 @@
-package l6;
+
 
 public class numberPyramid {
     public static void main(String[] args) {

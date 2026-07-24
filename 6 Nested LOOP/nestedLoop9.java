@@ -1,4 +1,3 @@
-package l5;
 
 public class nestedLoop9 {
     public static void main(String[] args) {

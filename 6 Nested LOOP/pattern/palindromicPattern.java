@@ -1,4 +1,4 @@
-package l6;
+
 
 public class palindromicPattern {
     public static void main(String[] args) {
