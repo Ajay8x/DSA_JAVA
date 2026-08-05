@@ -1,7 +1,7 @@
-public class BUTTERFLY_PATTERN{
+public class BUTTERFLY_PATTERN {
 
-public static void print_star(int n) {
-    
+    public static void print_star(int n) {
+
         // outer loop Upper half
         for (int i = 1; i <= n; i++) {
             // inner loop
@@ -21,9 +21,7 @@ public static void print_star(int n) {
             System.out.println();
         }
 
-
-
-        // lower half 
+        // lower half
 
         // left 1ts part of lower half
         for (int i = n; i >= 1; i--) {
@@ -31,7 +29,7 @@ public static void print_star(int n) {
 
             for (int j = 1; j <= i; j++)
                 System.out.print("*");
-            // Spaces  /even number of spaces
+            // Spaces /even number of spaces
             int space = 2 * (n - i);
             for (int j = 1; j <= space; j++) {
                 System.out.print(" ");
@@ -45,19 +43,10 @@ public static void print_star(int n) {
 
     }
 
-
     public static void main(String[] args) {
-        int n = 4;
+        int n = 6;
         print_star(n);
 
-
-
-
-}
-
+    }
 
 }
-
-
-
-
