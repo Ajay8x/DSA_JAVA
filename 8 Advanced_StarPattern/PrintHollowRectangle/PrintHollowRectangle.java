@@ -1,3 +1,4 @@
+package PrintHollowRectangle;
 public class PrintHollowRectangle {
     public static void Hollow_print(int total_rows, int total_columns) {
 //outer loop for Total rows
