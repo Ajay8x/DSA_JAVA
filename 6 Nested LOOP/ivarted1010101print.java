@@ -5,7 +5,7 @@ public class nestedLoop {
 
         // Outer loop for rows
         for (int i = 1; i <= n; i++) {
-            // Inner loop for columns
+            // Inner loop for columnsPrintHollowRectanglePrintHollowRectanglePrintHollowRectanglePrintHollowRectanglePrintHollowRectanglePrintHollowRectangle
             for (int j = 1; j <= i; j++) {
                 int sum = i + j;
                 if (sum % 2 == 0) {// even
