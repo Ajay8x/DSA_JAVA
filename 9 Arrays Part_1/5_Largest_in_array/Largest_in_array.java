@@ -13,9 +13,6 @@ public class Largest_in_array {
         return largest; // Return the largest element found
     }
 
-
-
-
     // Method 2 to find the largest element in an array
     public static int largestInArray2(int NumArr[]) {
         int largest = Integer.MIN_VALUE; // Initialize to the smallest possible integer
@@ -33,12 +30,9 @@ public class Largest_in_array {
 
         int largestElement = largestInArray1(number);
         System.out.println("The largest element in the array is: " + largestElement);
-   
-   
+
         int largestElement2 = largestInArray2(number);
-        System.out.println("The largest element in the array is: " + largestElement2);  
-
-
+        System.out.println("The largest element in the array is: " + largestElement2);
 
     }
 
