@@ -1,11 +1,4 @@
-
-
 public class Smallest_in_array {
-
-
-
-    
-
 
     // method 1 to find the Smallest element in an array
     public static int SmallestInArray1(int NumArr[]) {
@@ -19,9 +12,6 @@ public class Smallest_in_array {
         return Smallest; // Return the Smallest element found
     }
 
-
-
-    
     // Method 2 to find the Smallest element in an array
     public static int SmallestInArray2(int NumArr[]) {
         int Smallest = Integer.MAX_VALUE; // Initialize to the smallest possible integer
@@ -39,15 +29,10 @@ public class Smallest_in_array {
 
         int SmallestElement = SmallestInArray1(number);
         System.out.println("The Smallest element in the array is: " + SmallestElement);
-   
-   
+
         int SmallestElement2 = SmallestInArray2(number);
-        System.out.println("The Smallest element in the array is: " + SmallestElement2);  
-
-
+        System.out.println("The Smallest element in the array is: " + SmallestElement2);
 
     }
 
 }
-
-

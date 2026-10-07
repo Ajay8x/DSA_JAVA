@@ -10,7 +10,6 @@ public class liner_Search {
         }
         return -1; // Return -1 if the key is not found
     }
-
     public static void main(String args[]) {
         int number[] = { 10, 20, 30, 40, 50 };
         String menu[] = { "dosa", "chhole", "samosa", "puri", "jalebi", "idli", "vada", "poha", "pavbhaji", "pasta",

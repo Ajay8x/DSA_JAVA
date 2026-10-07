@@ -1,6 +1,4 @@
-
 public class Largest_in_array {
-
     // method 1 to find the largest element in an array
     public static int largestInArray1(int NumArr[]) {
         int largest = NumArr[0]; // Assume the first element is the largest
@@ -27,13 +25,11 @@ public class Largest_in_array {
 
     public static void main(String args[]) {
         int number[] = { 10, 20, 30, 40, 5 };
-
         int largestElement = largestInArray1(number);
         System.out.println("The largest element in the array is: " + largestElement);
 
         int largestElement2 = largestInArray2(number);
         System.out.println("The largest element in the array is: " + largestElement2);
-
     }
 
 }

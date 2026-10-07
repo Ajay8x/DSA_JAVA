@@ -15,14 +15,19 @@ public class binary_Search_in_Array {
             } else if (numbers[mid] < key) {
                 start = mid + 1; // Search in the right half
             } else {
-                end = mid - 1; // Search in the left half
+                end = mid - 1; // Se arch in the left half
             }
         }
         return -1; // Target not found
     }
+
+    
+    
     public static void main(String args[]) {
         int numbers[] = { 10, 20, 30, 40, 50 }; // Sorted array for binary search
         int key = 30; // Element to search for
+
+
         int result = binarySearch(numbers, key);
         if (result == -1) {
             System.out.println("Element not found in the array.");
